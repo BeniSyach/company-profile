@@ -7,6 +7,7 @@ const nextConfig = {
       "images.unsplash.com",
       "w7.pngwing.com",
       "www.google.com",
+      "cdn.builder.io",
     ],
   },
 };

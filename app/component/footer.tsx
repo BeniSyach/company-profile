@@ -28,7 +28,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="self-center mt-6 text-base leading-6 text-center text-slate-500">
-        © 2022 Acme Co. All rights reserved.
+        © 2024 Beni Company. All rights reserved.
       </div>
     </div>
   );
