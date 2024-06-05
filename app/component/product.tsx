@@ -70,8 +70,8 @@ export default function Product() {
   };
 
   return (
-    <>
-      <div className="self-start mt-5 ml-44 text-2xl font-bold tracking-tight text-neutral-900 max-md:ml-2.5">
+    <div className="flex flex-col px-4 py-5 mt-4 w-full max-w-[960px] max-md:max-w-full">
+      <div className="text-4xl font-black tracking-tighter text-neutral-900 max-md:max-w-full">
         Featured products
       </div>
       <div className="flex flex-col p-4 mt-3 w-full max-w-[960px] max-md:max-w-full">
@@ -108,6 +108,6 @@ export default function Product() {
       {selectedProduct && (
         <ProductModal product={selectedProduct} onClose={closeModal} />
       )}
-    </>
+    </div>
   );
 }
